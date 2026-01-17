@@ -42,8 +42,8 @@
      Button Component Classes
      ======================================== */
   
-  .btn-primary {
-    @apply button-text bg-primary text-light-3 px-6 py-3 rounded-lg;
+  .primary-btn {
+    @apply button-text bg-secondary text-primary px-6 py-3 rounded-lg;
     @apply hover:opacity-90 transition-opacity duration-200;
   }
 

@@ -1,14 +1,47 @@
+<script setup>
+
+import LogoImg from '../../assets/images/logo.png';
+import DesktopNav from '../nav/DesktopNav.vue';
+import HamburgerMenu from '../nav/HamburgerMenu.vue';
+import MobileMenu from '../nav/MobileMenu.vue';
+</script>
+
+
 <template>
-    <h1 class="bg-red-700 hero-text">Header </h1>
-
-
-    <nav>
-        <menu>
-            <NuxtLink to="/"> Home</NuxtLink>
-            <NuxtLink to="/about"> About</NuxtLink>
-            <NuxtLink to="/pricing"> Pricing</NuxtLink>
-<br/>
-            
-        </menu>
-    </nav>
+<header class="bg-primary w-full h-[--header-height] flex justify-between px-page-margin-mobile md:px-page-margin-tablet md:items-center pt-page-margin-mobile md:pt-0
+lg:px-page-margin-desktop  ">
+    <div class="logo-nav flex md:w-full md:justify-between">
+        <div class="logo">
+            <img 
+            class="w-[--logo-width]  h-[--logo-height]"
+             :src="LogoImg" 
+             alt="intellitoggle's logo image"
+             >
+        </div>
+           <DesktopNav/>
+            <Button class="hidden md:block primary-btn"> Start Sandbox </Button>
+    </div>
+<!-- Hamburger Menu -->
+<HamburgerMenu/>  
+</header>
+<MobileMenu/>
 </template>
+
+<style>
+    :root{
+    --header-height:59px;
+    --logo-width:80px;
+    --logo-height:23px;
+    }
+
+    @media only screen and (min-width:768px) {
+        :root{
+    --header-height:115px;
+    --logo-width:206px;
+    --logo-height:51px;
+    }
+    }
+
+     a.active{
+        font-weight: 700;
+    } </style>

@@ -5,7 +5,7 @@ import SiteHeader from './components/layout/SiteHeader.vue';
 </script>
 
 <template>
-  <div class="container">
+  <div class="site-container w-full h-screen">
    <SiteHeader/>
   <NuxtPage/>
   <SiteFooter/>
@@ -14,7 +14,6 @@ import SiteHeader from './components/layout/SiteHeader.vue';
 
 
 <style>
-
 /* Satoshi Font */
 @font-face {
   font-family: 'Satoshi';
@@ -48,6 +47,7 @@ import SiteHeader from './components/layout/SiteHeader.vue';
   font-style: italic;
   font-display: swap;
 }
+
 
 
 </style>
