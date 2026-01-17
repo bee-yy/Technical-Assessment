@@ -88,6 +88,9 @@
     @apply bg-gradient-to-b from-primary to-[#0F1026] bg-clip-text text-transparent
   }
 
+  .gradient-bg{  
+    @apply bg-gradient-to-b from-primary to-[#0F1026] 
+  }
   .horizontal-padding{
     @apply p-page-margin-mobile md:p-page-margin-tablet xl:p-page-margin-desktop  }
 
