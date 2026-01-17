@@ -1,6 +1,6 @@
 <script setup>
 
-import LogoImg from '../../assets/images/logo.png';
+import LogoImg from '../../public/logo.png'
 import DesktopNav from '../nav/DesktopNav.vue';
 import HamburgerMenu from '../nav/HamburgerMenu.vue';
 import MobileMenu from '../nav/MobileMenu.vue';
@@ -8,8 +8,8 @@ import MobileMenu from '../nav/MobileMenu.vue';
 
 
 <template>
-<header class="bg-primary w-full h-[--header-height] flex justify-between px-page-margin-mobile md:px-page-margin-tablet md:items-center pt-page-margin-mobile md:pt-0
-lg:px-page-margin-desktop  ">
+<header class="bg-transparent w-full h-[--header-height] absolute top-0 z-50 flex justify-between px-page-margin-mobile md:px-page-margin-tablet md:items-center pt-page-margin-mobile md:pt-0
+xl:px-page-margin-desktop  ">
     <div class="logo-nav flex md:w-full md:justify-between">
         <div class="logo">
             <img 
@@ -19,7 +19,7 @@ lg:px-page-margin-desktop  ">
              >
         </div>
            <DesktopNav/>
-            <Button class="hidden md:block primary-btn"> Start Sandbox </Button>
+            <button class="hidden md:block primary-btn button-text"> Start Sandbox </button>
     </div>
 <!-- Hamburger Menu -->
 <HamburgerMenu/>  
@@ -35,12 +35,19 @@ lg:px-page-margin-desktop  ">
     }
 
     @media only screen and (min-width:768px) {
-        :root{
+       :root{
     --header-height:115px;
     --logo-width:206px;
     --logo-height:51px;
     }
     }
+     @media only screen and (min-width:1280px) {
+        :root{
+    --header-height:133px;
+    --logo-width:206px;
+    --logo-height:51px;
+    
+    }}
 
      a.active{
         font-weight: 700;

@@ -5,7 +5,5 @@ import HeroSection from '~/components/home/HeroSection.vue';
 
 <template>
     <HeroSection/>
-    <h2>
-        Home Page
-    </h2>
+   
 </template>

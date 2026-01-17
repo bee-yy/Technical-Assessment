@@ -5,8 +5,8 @@ import SiteHeader from './components/layout/SiteHeader.vue';
 </script>
 
 <template>
-  <div class="site-container w-full h-screen">
-   <SiteHeader/>
+  <div class="site-container relative w-full h-screen body-text">
+  <SiteHeader/>
   <NuxtPage/>
   <SiteFooter/>
   </div>

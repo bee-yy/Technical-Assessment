@@ -4,7 +4,7 @@
             <NuxtLink to="/" class="active"> Home</NuxtLink>
             <NuxtLink to="/about"> About</NuxtLink>
             <NuxtLink to="/pricing"> Pricing</NuxtLink>  
-            <Button class="primary-btn"> Start Sandbox </Button>
+            <button class="primary-btn"> Start Sandbox </button>
         </menu>
         </nav>
 </template>
