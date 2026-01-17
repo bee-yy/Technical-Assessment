@@ -11,7 +11,7 @@ import IbmImg from '@/assets/images/ibm.png'
 <section id="social-proof-section" class="mt-[120px] p-4">
 
 
-<h4 class=" heading-3 text-center  bg-gradient-to-b from-primary to-[#0F1026] bg-clip-text text-transparent">
+<h4 class=" heading-3 text-center gradient-text ">
 Trusted by various engineering teams
 </h4>
 

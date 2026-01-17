@@ -84,4 +84,11 @@
     @apply max-w-none w-auto h-[60px];
   }
 
+  .gradient-text{
+    @apply bg-gradient-to-b from-primary to-[#0F1026] bg-clip-text text-transparent
+  }
+
+  .horizontal-padding{
+    @apply p-page-margin-mobile md:p-page-margin-tablet xl:p-page-margin-desktop  }
+
 }
