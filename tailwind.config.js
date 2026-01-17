@@ -64,6 +64,7 @@ export default {
         'light-1': '#B7B8B9',
         'light-2': '#DEDEDE',
         'light-3': '#FEFEFF',
+        'gradient-stop': '#0F1026',
       },
       
       // Layout

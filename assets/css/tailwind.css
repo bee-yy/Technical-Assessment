@@ -80,4 +80,8 @@
     @apply hover:opacity-50;
   }
 
+  .social-proof-img{
+    @apply max-w-none w-auto h-[60px];
+  }
+
 }
