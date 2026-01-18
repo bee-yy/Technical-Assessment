@@ -12,12 +12,18 @@ import HeroImgDesktop from '@/assets/images/hero-img-desktop.png'
         <div class="texts text-accent flex flex-col items-center justify-center ">
             <h1 class="hero-text">The First <span class="bg-secondary text-primary py-[5px] px-[5px] rounded-lg">Dart-Native</span> Feature Flag With DartCodeAI</h1>
 
-            <p class="md:w-[60%] mt-4">
+            <p class="md:w-[60%] mt-4 md:hidden">
                 Ship faster, control rollouts, and get ready for AI-powered delivery, <br>
                <span class="md:text-secondary">
                 starting at just $1/month for a limited time
                </span> 
             </p>
+            <h3 class="hidden md:block  md:w-[80%] mt-4 xl:text-2xl">
+               Feature flags built for Dart, Ship faster, roll back safely, and scale with AI-powered delivery <br>
+               <span class="md:text-secondary">
+                starting at just $1/month 
+               </span> 
+            </h3>
         </div>
 
         <div class="hero-btns w-full button-text md:w-[70%] mx-auto ">
