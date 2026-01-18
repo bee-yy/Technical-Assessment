@@ -35,7 +35,7 @@ xl:px-page-margin-desktop  horizontal-scrolling ">
 <!-- Hamburger Menu -->
 <HamburgerMenu :onMenuClick="handleMenu" :openState="isOpen"/>  
 </header>
-<MobileMenu />
+<MobileMenu  :openState="isOpen"/>
 </template>
 
 <style>

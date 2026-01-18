@@ -5,14 +5,14 @@ import FooterLogo from '@/assets/images/footer-logo.png'
 <template>
 <footer class="horizontal-padding bg-accent flex flex-col gap-6 xl:flex-row">
    
-     <div class="lg:flex gap-4  xl:flex-3"> 
+     <div class="lg:flex gap-4 w-[70%]"> 
 
   <!-- 1 -->
     <div class="flex flex-col gap-4 lg:flex-1"> 
         <div class="log-wrapper w-[171px]">
             <img  :src="FooterLogo" alt="IntelliToggle Logo">
         </div>
-        <p class="text-body-2">IntelliToggle is built by AORTEM, a company focused on powering scalable, multi-platform developer tools.</p>
+        <p class="text-body-2 xl:w-[345px]">IntelliToggle is built by AORTEM, a company focused on powering scalable, multi-platform developer tools.</p>
 
 
         <div class="icon-wrapper">
@@ -51,7 +51,7 @@ import FooterLogo from '@/assets/images/footer-logo.png'
     </div>
     </div>
     <!-- 3 -->
-    <div class="flex flex-col gap-6 mt-9 lg:w-[50%] lg:ml-auto md:mt-3 xl:flex-1">
+    <div class="flex flex-col gap-6 mt-9 lg:w-[50%] lg:ml-auto md:mt-3 xl:w-[30%] ">
         <p class="button-text">Subscribe to Newsletter</p>
          <form action="" class="flex p-1 h-[45px] rounded-md">
         <div class="form-input w-[70%]">
@@ -63,7 +63,7 @@ import FooterLogo from '@/assets/images/footer-logo.png'
         </div>
         
         <button type="submit"
-        class="hidden md:block gold-btn w-[30%] h-[45px] py-2 rounded-r-md button text"> Subscribe</button>
+        class="hidden md:block gold-btn  w-[30%] md:w-[116px] h-[45px] py-2 rounded-r-md button text"> Subscribe</button>
          <button type="submit"
         class="md:hidden gradient-bg purple-btn w-[30%] h-[45px] py-2 rounded-r-md button text"> Join </button>
     </form>

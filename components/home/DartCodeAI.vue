@@ -54,14 +54,14 @@ import AutoSegmentIcon from '@/assets/images/autosegment-icon.png'
       <h3 class="hidden xl:block heading-2 text-secondary">
         Enterprise Only
     </h3>
-    <div class=" new-glass-effect flex flex-col gap-4 text-accent p-6 rounded-lg md:w-full md:items-center xl:flex-row xl:justify-between xl:p-12">
+    <div class=" new-glass-effect flex flex-col gap-4 text-accent  p-6 rounded-lg md:w-full md:items-center xl:flex-row xl:justify-between xl:p-12">
  <h4 class="heading-3">
         <span class="text-secondary "> 
 Be The First
         </span> To Try Out Our New AI Features.
     </h4>
 
-    <form action="" class="flex backdrop-blur-sm bg-transparent border-2 border-white/60 rounded-lg  shadow-2xl. p-1 w-[70%] xl:w-[50%]">
+    <form action="" class="flex backdrop-blur-sm bg-transparent border-2 border-white/60 rounded-lg shadow-2xl. p-1  md:w-[70%] xl:w-[50%]">
         <div class="form-input w-[70%] ">
 <label for="user-email">
         <input 
@@ -73,7 +73,7 @@ Be The First
 
        
         <button type="submit"
-        class="gold-btn w-[30%] py-2 rounded-md button-text"> Get Access</button>
+        class="gold-btn w-[100px] md:w-[30%] py-2 rounded-md button-text"> Get Access</button>
         <button type="submit"
         class="hidden button-text gold-outline-bt"
         > Join AI Early Access</button>
