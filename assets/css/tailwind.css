@@ -83,7 +83,7 @@
     .purple-btn{
       @apply text-accent bg-primary
     }
-    gold-outline-btn{
+    .gold-outline-btn{
       @apply text-secondary border border-secondary
     }
     
