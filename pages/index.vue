@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import CTA from '~/components/home/CTA.vue';
 import DartCodeAI from '~/components/home/DartCodeAI.vue';
 import FeatureCards from '~/components/home/FeatureCards.vue';
 import FeatureFlag from '~/components/home/FeatureFlag.vue';
@@ -19,5 +20,6 @@ import SocialProof from '~/components/home/SocialProof.vue';
     <FeatureFlag/>
     <DartCodeAI/>
     <PricingPlans/>
+    <CTA/>
    
 </template>
