@@ -52,32 +52,12 @@
     @apply hover:opacity-90 transition-opacity duration-200;
   }
 
-  .btn-outline {
-    @apply button-text bg-transparent border-2 border-primary text-primary px-6 py-3 rounded-lg;
-    @apply hover:bg-primary hover:text-light-3 transition-all duration-200;
-  }
-
-  .btn-ghost {
-    @apply button-text bg-transparent text-primary px-6 py-3 rounded-lg;
-    @apply hover:bg-primary/10 transition-colors duration-200;
-  }
-
-  .btn-accent {
-    @apply button-text bg-accent text-header-1 px-6 py-3 rounded-lg;
-    @apply hover:opacity-90 transition-opacity duration-200;
-  }
-
   .btn-lg {
     @apply px-8 py-4;
   }
 
   .btn-sm {
     @apply px-4 py-2 text-small-mobile md:text-small-tablet lg:text-small-desktop;
-  }
-
-  .btn-disabled {
-    @apply opacity-50 cursor-not-allowed;
-    @apply hover:opacity-50;
   }
 
   .social-proof-img{
@@ -94,4 +74,17 @@
   .horizontal-padding{
     @apply p-page-margin-mobile md:p-page-margin-tablet xl:p-page-margin-desktop  }
 
+    .new-glass-effect{
+     @apply backdrop-blur-sm bg-transparent border-2 border-white/15  shadow-2xl
+    }
+    .gold-btn{
+      @apply bg-secondary text-primary
+    }
+    .purple-btn{
+      @apply text-accent bg-primary
+    }
+    gold-outline-btn{
+      @apply text-secondary border border-secondary
+    }
+    
 }

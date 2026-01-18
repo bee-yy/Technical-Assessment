@@ -32,11 +32,11 @@ Not Another Generic Feature Flag Tool
             </picture>
     </div>
 
-    <div class="flex items-center justify-center mt-8">
+    <div class="flex items-center justify-center mt-8 lg:hidden">
     <div class="dot-pagination flex gap-1 ">
         <span class="dot inline-block w-[43px] h-[8px] rounded-full gradient-bg">  </span>
         <span class="dot inline-block w-[8px] h-[8px] rounded-full bg-[#C5C8E7]">  </span>
-        <span class="dot inline-block w-[8px] h-[8px] rounded-full bg-[#C5C8E7]">  </span>
+        <span class="dot inline-block w-[8px] h-[8px] rounded-full bg-[#C5C8E7] ">  </span>
     </div>
      </div>
 </section>

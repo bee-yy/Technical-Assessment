@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import DartCodeAI from '~/components/home/DartCodeAI.vue';
 import FeatureCards from '~/components/home/FeatureCards.vue';
 import FeatureFlag from '~/components/home/FeatureFlag.vue';
 import HeroSection from '~/components/home/HeroSection.vue';
@@ -15,5 +16,6 @@ import SocialProof from '~/components/home/SocialProof.vue';
     <OpenFeature/>
     <FeatureCards/>
     <FeatureFlag/>
+    <DartCodeAI/>
    
 </template>
