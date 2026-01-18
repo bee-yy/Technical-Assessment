@@ -3,7 +3,7 @@ import FooterLogo from '@/assets/images/footer-logo.png'
 </script>
 
 <template>
-<Footer class="horizontal-padding bg-accent flex flex-col gap-6">
+<footer class="horizontal-padding bg-accent flex flex-col gap-6">
     <!-- 1 -->
     <div class="flex flex-col gap-4"> 
         <div class="log-wrapper w-[171px]">
@@ -65,5 +65,5 @@ import FooterLogo from '@/assets/images/footer-logo.png'
         class="md:hidden gradient-bg purple-btn w-[30%] h-[45px] py-2 rounded-r-md button text"> Join </button>
     </form>
     </div>
-</Footer>
+</footer>
 </template>

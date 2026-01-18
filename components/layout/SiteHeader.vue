@@ -1,15 +1,26 @@
 <script setup>
+import { ref } from 'vue';
 
 import LogoImg from '../../public/logo.png'
 import DesktopNav from '../nav/DesktopNav.vue';
 import HamburgerMenu from '../nav/HamburgerMenu.vue';
 import MobileMenu from '../nav/MobileMenu.vue';
+
+// 
+ const isOpen = ref(false);
+// Functions
+const handleMenu = () =>{
+    isOpen.value = isOpen.value ? false : true;
+    console.log('Menu Open')
+}
+
+
 </script>
 
 
 <template>
 <header class="bg-transparent w-full h-[--header-height] absolute top-0 z-50 flex justify-between px-page-margin-mobile md:px-page-margin-tablet md:items-center pt-page-margin-mobile md:pt-0
-xl:px-page-margin-desktop  ">
+xl:px-page-margin-desktop  horizontal-scrolling ">
     <div class="logo-nav flex md:w-full md:justify-between">
         <div class="logo">
             <img 
@@ -22,9 +33,9 @@ xl:px-page-margin-desktop  ">
             <button class="hidden md:block primary-btn button-text"> Start Sandbox </button>
     </div>
 <!-- Hamburger Menu -->
-<HamburgerMenu/>  
+<HamburgerMenu :onMenuClick="handleMenu" :openState="isOpen"/>  
 </header>
-<MobileMenu/>
+<MobileMenu :openState="isOpen"/>
 </template>
 
 <style>
