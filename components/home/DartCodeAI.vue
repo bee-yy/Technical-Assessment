@@ -9,7 +9,7 @@ import AutoSegmentIcon from '@/assets/images/autosegment-icon.png'
 </script>
 
 <template>
-    <section id="dart-code-ai-section" class="dart-ai-section-bg h-[var(--dart-ai-section-bg-height)] horizontal-padding flex flex-col gap-8 items-center py-9">
+    <section id="dart-code-ai-section" class="dart-ai-section-bg h-[var(--dart-ai-section-bg-height)] horizontal-padding flex flex-col gap-8 items-center  ">
     <!-- top -->
     <div class="flex flex-col items-center">
         <button class="button-text bg-secondary w-[181px] py-2 px-5 rounded-full">
@@ -23,7 +23,7 @@ import AutoSegmentIcon from '@/assets/images/autosegment-icon.png'
     
 
     <!-- middle  -->
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-14">
     <DartCodeAICard 
     :icon="AutoFlagIcon" 
     :title="'AutoFlag AI (LLM-Assisted Flag Creation)'"
@@ -51,18 +51,18 @@ import AutoSegmentIcon from '@/assets/images/autosegment-icon.png'
     </div>
    
     <!-- bottom -->
-      <h3 class="heading-2 text-secondary">
+      <h3 class="hidden xl:block heading-2 text-secondary">
         Enterprise Only
     </h3>
-    <div class=" new-glass-effect flex flex-col gap-4 text-accent p-6">
+    <div class=" new-glass-effect flex flex-col gap-4 text-accent p-6 rounded-lg md:w-full md:items-center xl:flex-row xl:justify-between xl:p-12">
  <h4 class="heading-3">
-        <span class="text-secondary"> 
+        <span class="text-secondary "> 
 Be The First
         </span> To Try Out Our New AI Features.
     </h4>
 
-    <form action="" class="flex backdrop-blur-sm bg-transparent border-2 border-white/60 rounded-lg  shadow-2xl. p-1 ">
-        <div class="form-input w-[70%]">
+    <form action="" class="flex backdrop-blur-sm bg-transparent border-2 border-white/60 rounded-lg  shadow-2xl. p-1 w-[70%] xl:w-[50%]">
+        <div class="form-input w-[70%] ">
 <label for="user-email">
         <input 
         class="w-100 bg-transparent outline-none p-2" 
@@ -75,7 +75,7 @@ Be The First
         <button type="submit"
         class="gold-btn w-[30%] py-2 rounded-md button-text"> Get Access</button>
         <button type="submit"
-        class="hidden button-text gold-outline-btn"
+        class="hidden button-text gold-outline-bt"
         > Join AI Early Access</button>
     </form>
     </div>
@@ -85,7 +85,7 @@ Be The First
 
 <style>
     :root{
-        --dart-ai-section-bg-height:1335px;
+        --dart-ai-section-bg-height:fit-content;
     }
     .dart-ai-section-bg{
         background-image: url('../../assets/images/bg-dart-ai-mobile.jpg');

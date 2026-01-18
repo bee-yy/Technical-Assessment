@@ -5,11 +5,13 @@ import OverviewImgDesktop from '@/assets/images/overview-img-desktop.png'
 </script>
 
 <template>
-    <section id="overview-section" class="border py-10 horizontal-padding">
-        <h2 class="hidden md:block heading-2 gradient-text">
+    <section id="overview-section" class="py-10 horizontal-padding ">
+        <h2 class="hidden md:block heading-2 gradient-text text-center mb-4 ">
             What Is IntelliToggle
         </h2>
-        <div class="lhs">
+        <!-- Left hand Side-->
+        <div class="lg:flex items-center gap-6">
+        <div class="lhs lg:w-[50%]">
             <h3 class="heading-3 text-header-1 ">
                 Your AI Dart App’s Control Panel For Feature Releases
             </h3>
@@ -27,12 +29,16 @@ import OverviewImgDesktop from '@/assets/images/overview-img-desktop.png'
     <li> Instantly rollback when needed</li>
 </ul>
         </div>
-        <div class="rhs mt-4">
-            <picture>
+        <!-- Right hand Side -->
+        <div class="rhs mt-4 w-[100%] lg:w-[50%]">
+            <picture class="w-full object-cover">
                 <source media="(min-width: 1200px)" :srcset="OverviewImgDesktop">
                 <source media="(min-width: 768px)" :srcset="OverviewImgTablet">
-                <img :src="OverviewImg" alt="Dart App's Control Panel img">
+                <img 
+                class="w-full h-full object-cover"
+                :src="OverviewImg" alt="Dart App's Control Panel img">
             </picture>
+        </div>
         </div>
     </section>
 </template>

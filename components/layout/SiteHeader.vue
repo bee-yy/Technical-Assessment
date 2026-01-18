@@ -22,9 +22,9 @@ const handleMenu = () =>{
 <header class="bg-transparent w-full h-[--header-height] absolute top-0 z-50 flex justify-between px-page-margin-mobile md:px-page-margin-tablet md:items-center pt-page-margin-mobile md:pt-0
 xl:px-page-margin-desktop  horizontal-scrolling ">
     <div class="logo-nav flex md:w-full md:justify-between">
-        <div class="logo">
+        <div class="logo ">
             <img 
-            class="w-[--logo-width]  h-[--logo-height]"
+            class="w-[--logo-width]  h-[--logo-height] object-cover"
              :src="LogoImg" 
              alt="intellitoggle's logo image"
              >
@@ -35,7 +35,7 @@ xl:px-page-margin-desktop  horizontal-scrolling ">
 <!-- Hamburger Menu -->
 <HamburgerMenu :onMenuClick="handleMenu" :openState="isOpen"/>  
 </header>
-<MobileMenu :openState="isOpen"/>
+<MobileMenu />
 </template>
 
 <style>

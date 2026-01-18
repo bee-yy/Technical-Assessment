@@ -14,12 +14,12 @@ import shipFeatureImgLg from '@/assets/images/ship-feature-img-desktop.png'
 </script>
 
 <template>
-    <section class="horizontal-padding py-12 flex flex-col gap-4 ">
-<h2 class="heading-1 header-1 text-center">
+    <section class="p-page-margin-mobile py-12 flex flex-col gap-4 md:pe-0 md:px-page-margin-tablet xl:md:px-page-margin-desktop">
+<h2 class="heading-1 header-1 text-center mb-8">
     Control & Power-focused
 </h2>
 
-<div class="cards flex flex-col gap-8">
+<div class="cards flex flex-col gap-2 md:gap-8 xl:gap-12 md:flex-row  md:overflow-x-auto md:justify-between xl:overflow-auto ">
     <Feature :title="'Connect'" :description="'Install SDK in your Dart project in 2 mins.'" :smImg="connectFeatureImg" :lgImg="connectFeatureImgLg"/>
 
     <Feature :title="'Create Flags'" :description="'Define features in IntelliToggle dashboard.'" :smImg="connectFeatureImg" :lgImg="connectFeatureImgLg"/>

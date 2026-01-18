@@ -8,14 +8,14 @@ import IbmImg from '@/assets/images/ibm.png'
 </script>
 
 <template>
-<section id="social-proof-section" class="mt-[120px] p-4">
+<section id="social-proof-section" class="mt-[20%] p-4 lg:mt-[35%] md:p-page-margin-tablet xl:p-page-margin-desktop ">
 
 
 <h4 class=" heading-3 text-center gradient-text ">
 Trusted by various engineering teams
 </h4>
 
-    <div class="trusted-bg-imgs  flex gap-[53px] mt-6 overflow-x-auto">
+    <div class="trusted-bg-imgs flex gap-[53px] mt-6 overflow-x-auto md:justify-center ">
 
         <img 
         class="social-proof-img"

@@ -3,9 +3,12 @@ import FooterLogo from '@/assets/images/footer-logo.png'
 </script>
 
 <template>
-<footer class="horizontal-padding bg-accent flex flex-col gap-6">
-    <!-- 1 -->
-    <div class="flex flex-col gap-4"> 
+<footer class="horizontal-padding bg-accent flex flex-col gap-6 xl:flex-row">
+   
+     <div class="lg:flex gap-4  xl:flex-3"> 
+
+  <!-- 1 -->
+    <div class="flex flex-col gap-4 lg:flex-1"> 
         <div class="log-wrapper w-[171px]">
             <img  :src="FooterLogo" alt="IntelliToggle Logo">
         </div>
@@ -23,7 +26,7 @@ import FooterLogo from '@/assets/images/footer-logo.png'
     </div>
 
         <!-- 2 -->
-    <div class="flex flex-row-reverse justify-end gap-8">
+    <div class="flex flex-row-reverse justify-end gap-8 lg:flex-1">
         <!-- left -->
         <div>
             <p class=" text-body-2 mb-3">
@@ -46,9 +49,9 @@ import FooterLogo from '@/assets/images/footer-logo.png'
             </ul>
         </div>
     </div>
-
+    </div>
     <!-- 3 -->
-    <div class="flex flex-col gap-6 mt-[60px]">
+    <div class="flex flex-col gap-6 mt-9 lg:w-[50%] lg:ml-auto md:mt-3 xl:flex-1">
         <p class="button-text">Subscribe to Newsletter</p>
          <form action="" class="flex p-1 h-[45px] rounded-md">
         <div class="form-input w-[70%]">
@@ -65,5 +68,6 @@ import FooterLogo from '@/assets/images/footer-logo.png'
         class="md:hidden gradient-bg purple-btn w-[30%] h-[45px] py-2 rounded-r-md button text"> Join </button>
     </form>
     </div>
+
 </footer>
 </template>

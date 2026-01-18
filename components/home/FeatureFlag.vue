@@ -6,12 +6,12 @@ import FeatureFlagImgDesktop from '@/assets/images/feature-flag-img-desktop.png'
 
 <template>
 <section id="feature-flag-section" class="py-6">
-    <div class="horizontal-padding flex flex-col">
+    <div class="horizontal-padding md:pb-0 flex flex-col xl:items-center  xl:justify-center">
  <h2 class="heading-1 text-center gradient-text">
 Dart-Powered Feature Flag
     </h2>
 
-    <div class="feature-flag-content">
+    <div class="feature-flag-content md:w-[88%] xl:w-[45%]">
  <h3 class="heading-2 mt-2">
 Not Another Generic Feature Flag Tool
     </h3>
@@ -21,12 +21,12 @@ Not Another Generic Feature Flag Tool
     </div>
    
    
-    <div class="feature-img w-full overflow-x-auto no-scrollbar">
-         <picture class="w-[800px] block">
+    <div class="feature-img w-full overflow-x-auto no-scrollbar p-page-margin-mobile md:px-page-margin-tablet xl:md:px-page-margin-desktop">
+         <picture class="">
                 <source media="(min-width: 1200px)" :srcset="FeatureFlagImgDesktop">
                 <source media="(min-width: 768px)" :srcset="FeatureFlagImgTablet">
                 <img 
-                class="w-[800px] block" 
+                class="w-[800px]md:w-full block xl:mx-auto" 
                 :src="FeatureFlagImg"  
                  alt='an white backgrond image with a centered youtube icon'>
             </picture>

@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
 
-<div class="card flex flex-col items-center justify-center text-center gap- text-accent new-glass-effect p-8 rounded-lg" >
+<div class="card flex flex-col items-center justify-center text-center gap-3 text-accent new-glass-effect p-8  md:p-6 rounded-lg" >
     <div class="card-icon mb-4 ">
         <img :src=icon :alt=title>
     </div>

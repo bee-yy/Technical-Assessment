@@ -8,8 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="feature-card flex flex-col gap-2">
-        <div class="feature-img-wrapper">
+    <div class="feature-card flex  flex-col gap-2 md:w-[40%]">
+        <div class="feature-img-wrapper ">
             <picture>
                 <source media="(min-width: 1200px)" :srcset="lgImg">
                
