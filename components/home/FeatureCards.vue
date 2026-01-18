@@ -15,7 +15,7 @@ import shipFeatureImgLg from '@/assets/images/ship-feature-img-desktop.png'
 
 <template>
     <section class="horizontal-padding py-12 flex flex-col gap-4 ">
-<h2 class="heading-2 header-1 text-[26px] md:text-[32px] xl:text-[32px]">
+<h2 class="heading-1 header-1 text-center">
     Control & Power-focused
 </h2>
 

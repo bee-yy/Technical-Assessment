@@ -16,7 +16,7 @@ const props = defineProps({
                 <img :src="smImg" :alt=title>
             </picture>
         </div>
-        <h4 class="heading-4 header-2 font-semibold text-[20px]">
+        <h4 class="heading-3 header-2 font-semibold">
         {{props.title}}
         </h4>
         <p class="body-text text-body-2">{{props.description}}</p>
