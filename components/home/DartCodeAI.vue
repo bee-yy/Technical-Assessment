@@ -73,9 +73,9 @@ Be The First
 
        
         <button type="submit"
-        class="gold-btn w-[30%] py-2 rounded-md"> Get Access</button>
+        class="gold-btn w-[30%] py-2 rounded-md button-text"> Get Access</button>
         <button type="submit"
-        class="hidden"
+        class="hidden button-text gold-outline-btn"
         > Join AI Early Access</button>
     </form>
     </div>
