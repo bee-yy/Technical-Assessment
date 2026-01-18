@@ -5,14 +5,14 @@ import FooterLogo from '@/assets/images/footer-logo.png'
 <template>
 <footer class="horizontal-padding bg-accent flex flex-col gap-6 xl:flex-row">
    
-     <div class="lg:flex gap-4 w-[70%]"> 
+     <div class="lg:flex gap-4 xl:w-[70%]"> 
 
   <!-- 1 -->
-    <div class="flex flex-col gap-4 lg:flex-1"> 
+    <div class="flex flex-col  gap-4 lg:flex-1 mb-8"> 
         <div class="log-wrapper w-[171px]">
             <img  :src="FooterLogo" alt="IntelliToggle Logo">
         </div>
-        <p class="text-body-2 xl:w-[345px]">IntelliToggle is built by AORTEM, a company focused on powering scalable, multi-platform developer tools.</p>
+        <p class="text-body-2 l xl:w-[345px]">IntelliToggle is built by AORTEM, a company focused on powering scalable, multi-platform developer tools.</p>
 
 
         <div class="icon-wrapper">
